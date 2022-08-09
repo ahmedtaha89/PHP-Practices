@@ -136,7 +136,7 @@ echo '<div> Elzero Channel</div>';
   = Search For Settype
   ============================================
   */
-  
+
   echo 5 +  '7 test';
   echo '<br>';
   echo 5 + ( integer )'7 test';
@@ -167,32 +167,62 @@ echo '<div> Elzero Channel</div>';
   */
 
 
-echo "<br>";
-var_dump((bool) "");
-echo "<br>";
-var_dump((bool) "0");
-echo "<br>";
-var_dump((bool) 0);
-echo "<br>";
-var_dump((bool) array());
-echo "<br>";
-var_dump((bool) []);
-echo "<br>";
-var_dump((bool) 1);
-echo "<br>";
-var_dump((bool) "test");
-echo "<br>";
-var_dump((bool) [1]);
-echo "<br>";
-var_dump((bool) 100);
-echo "<br>";
-var_dump((bool) -155);
-echo "<br>";
-var_dump((bool) 1.5);
+  echo "<br>";
+  var_dump((bool) "");
+  echo "<br>";
+  var_dump((bool) "0");
+  echo "<br>";
+  var_dump((bool) 0);
+  echo "<br>";
+  var_dump((bool) array());
+  echo "<br>";
+  var_dump((bool) []);
+  echo "<br>";
+  var_dump((bool) 1);
+  echo "<br>";
+  var_dump((bool) "test");
+  echo "<br>";
+  var_dump((bool) [1]);
+  echo "<br>";
+  var_dump((bool) 100);
+  echo "<br>";
+  var_dump((bool) -155);
+  echo "<br>";
+  var_dump((bool) 1.5);
 
+  /*
+  ============================================
+  = Data Types
+  = ----------
+  = Boolean + Converting To Boolean
+  ============================================
+  */
 
-
-
+  echo '<br>';
+  echo 'Hello World';
+  echo '<br>';
+  echo 'Hello "World"';
+  echo '<br>';
+  echo "Hello 'World' ";
+  echo '<br>';
+  echo "Hello \"World\" ";
+  echo '<br>';
+  echo "Hello \\World\\ ";
+  echo '<br>';
+  echo "\<\>";
+  echo '<br>';
+  echo 'Hello PHP
+  On Multiple
+  Lines';
+  echo '<br>';
+  echo nl2br(  'Hello PHP
+  On Multiple
+  Lines');
+  echo nl2br(  'Hello PHP
+  On Multiple
+  On Multiple
+  On Multiple
+  Lines');
 
 
 
