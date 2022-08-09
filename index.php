@@ -136,6 +136,7 @@ echo '<div> Elzero Channel</div>';
   = Search For Settype
   ============================================
   */
+  
   echo 5 +  '7 test';
   echo '<br>';
   echo 5 + ( integer )'7 test';
@@ -154,7 +155,48 @@ echo '<div> Elzero Channel</div>';
   echo (int) 1.2 + (int) 15.65;
   echo '<br>';
   echo (int) (1.5 + 1.5);
+
   
+
+  /*
+  ============================================
+  = Data Types
+  = ----------
+  = Boolean + Converting To Boolean
+  ============================================
+  */
+
+
+echo "<br>";
+var_dump((bool) "");
+echo "<br>";
+var_dump((bool) "0");
+echo "<br>";
+var_dump((bool) 0);
+echo "<br>";
+var_dump((bool) array());
+echo "<br>";
+var_dump((bool) []);
+echo "<br>";
+var_dump((bool) 1);
+echo "<br>";
+var_dump((bool) "test");
+echo "<br>";
+var_dump((bool) [1]);
+echo "<br>";
+var_dump((bool) 100);
+echo "<br>";
+var_dump((bool) -155);
+echo "<br>";
+var_dump((bool) 1.5);
+
+
+
+
+
+
+
+
 ?>
 
 </body>
