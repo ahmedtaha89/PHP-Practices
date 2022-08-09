@@ -81,7 +81,7 @@ echo '<div> Elzero Channel</div>';
   echo '<br>';
   echo gettype(['test1' , 'test2']);
   echo '<br>';
- /*
+  /*
   ============================================
   = Data Types
   = ----------
@@ -114,7 +114,46 @@ echo '<div> Elzero Channel</div>';
   echo 1 + 56.52;
   echo '<br>';
   echo gettype( 1 + 56.52);
+ /*****************************************************************************/
 
+
+
+
+  /*
+  ============================================
+  = Data Types
+  = ----------
+  = Type Casting
+  = ----------------------
+  = "boolean" or "bool"
+  = "integer" or "int"
+  = "float" or "double" or "real"
+  = "string"
+  = "array"
+  = "object"
+  = "null"
+  = ------
+  = Search For Settype
+  ============================================
+  */
+  echo 5 +  '7 test';
+  echo '<br>';
+  echo 5 + ( integer )'7 test';
+  echo '<br>';
+  echo gettype(5 +  '7 test');
+  echo '<br>';
+  echo 4 + (int) 8.5; 
+  echo '<br>';
+  echo gettype(5 + (int) 50.5);
+  echo '<br>';
+  echo 5.5 + 5.5; 
+  echo '<br>';
+  echo gettype(1.5+1.00005);
+  echo '<br>';
+  echo (int) 1.2 + (int) 15.65;
+  echo '<br>';
+  echo (int) (1.5 + 1.5);
+  
 ?>
 
 </body>
