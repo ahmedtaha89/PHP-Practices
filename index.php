@@ -147,6 +147,7 @@ echo '<div> Elzero Channel</div>';
   echo gettype(5 + (int) 50.5);
   echo '<br>';
   echo 5.5 + 5.5; 
+  echo gettype(5.5 + 5.5);
   echo '<br>';
   echo gettype(1.5+1.00005);
   echo '<br>';
